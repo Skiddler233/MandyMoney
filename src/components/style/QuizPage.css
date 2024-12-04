@@ -1,0 +1,72 @@
+.quiz-container {
+  
+  margin: 50px auto; /* Center the container vertically and horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgba(217, 242, 248, 0.568);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  }
+  
+  .radio-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Space between radio buttons */
+    margin-top: 20px;
+  }
+  
+  .radio-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input[type="radio"] {
+    display: none; /* Hide default radio button */
+  }
+  
+  .radio-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #007bff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="radio"]:checked + .radio-box {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  input[type="radio"]:focus + .radio-box {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

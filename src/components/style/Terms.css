@@ -1,0 +1,50 @@
+/* Center the content and add spacing */
+.terms-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the checkbox container */
+.checkbox-container {
+    margin: 20px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Increase the size of the checkbox */
+.checkbox-container input[type="checkbox"] {
+    width: 15px; /* Adjust the width */
+    height: 15px; /* Adjust the height */
+    transform: scale(1.5); /* Scale the checkbox for more flexibility */
+    margin-right: 10px; /* Space between checkbox and label */
+    border-radius: 20%;
+}
+
+/* Optional: Adjust the label alignment */
+.checkbox-container label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Style the button */
+.proceed-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Ensures the button takes up its own block */
+    margin: 20px auto; /* Centers the button horizontally */
+}
+
+.proceed-button:hover {
+    background-color: #0056b3;
+}

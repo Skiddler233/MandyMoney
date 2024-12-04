@@ -1,0 +1,96 @@
+.about-you-page {
+    width: 700px; /* Set a max-width for the container */
+    margin: 50px auto; /* Center the container vertically and horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgb(240, 246, 246);
+    font-family: Arial, sans-serif;
+}
+.image-container {
+    height: 400px; /* Increased height for a larger image */
+    width: 100%; /* Make the width of the container 100% */
+    max-width: 700px; /* Ensure the image doesn't exceed the container's width */
+    margin: 0 auto; /* Center the image */
+}
+
+.image-container img {
+    width: 100%; /* Make the image responsive and fit the container's width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.about-you-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #414141;
+}
+
+/* Style the input fields */
+.about-you-page input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Style the dropdowns */
+.about-you-page .dropdown {
+    margin-bottom: 20px;
+}
+
+.about-you-page label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.about-you-page select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Style the Next button */
+.about-you-page button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.about-you-page button:hover {
+    background-color: #0056b3;
+}
+
+/* Make the page responsive */
+@media (max-width: 768px) {
+    .about-you-page {
+        padding: 15px;
+    }
+
+    .about-you-page h2 {
+        font-size: 20px;
+    }
+
+    .about-you-page input[type="text"],
+    .about-you-page select,
+    .about-you-page button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
