@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import '/style/AboutYou.css';
+import '../style/AboutYou.css';
 
 const AboutYouPage = () => {
   const [name, setName] = useState("");

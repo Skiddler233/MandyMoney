@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "/style/Calculating.css";
+import "../style/Calculating.css";
 
 const CalculatingResults = () => {
   const navigate = useNavigate();

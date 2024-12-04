@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import '/style/ResultsPage.css';
+import '../style/ResultsPage.css';
 
 const ResultsPage = () => {
   // Use the useLocation hook to get the state passed from the About You page

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import '/style/QuizPage.css'; // Assuming you have a separate CSS file for QuizPage styles
+import '../style/QuizPage.css'; // Assuming you have a separate CSS file for QuizPage styles
 
 const QuizPage = () => {
   const [answers, setAnswers] = useState({
