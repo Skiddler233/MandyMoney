@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./style/Terms.css"; // Importing external CSS
+import "/style/Terms.css"; // Importing external CSS
 
 const TermsAndConditions = () => {
   const navigate = useNavigate();
