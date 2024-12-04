@@ -1,14 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom'; // Import BrowserRouter
-import App from './App'; // Your main App component
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import './main.css';
 
-const rootElement = document.getElementById('root');
-
-// Using createRoot to render the app
-const root = ReactDOM.createRoot(rootElement);
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename="/MandyMoney">  {/* Set the base path here */}
+  <React.StrictMode>
     <App />
-  </BrowserRouter>
+  </React.StrictMode>
 );
