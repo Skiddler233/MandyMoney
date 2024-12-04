@@ -4,7 +4,7 @@ import WelcomeScreen from "./components/WelcomeScreen";
 import TermScreen from "./components/TermScreen";
 import AboutYouPage from "./components/AboutYouPage";
 import QuizPage from "./components/QuizPage";
-import QuizPage2 from "./components/QuizPage2";
+import QuizPage2 from "./components/Quizpage2";
 import CalculatingResults from "./components/CalculatingResults";
 import ResultsPage from "./components/ResultsPage";
 
