@@ -21,7 +21,7 @@ const AboutYouPage = () => {
 return (
     <div>
     <div className="image-container">
-    <img src="/assets/flyinglady.png" alt="Loading..." />
+    <img src="assets/flyinglady.png" alt="The flying chick" />
     </div>
     <div className="about-you-page">
   

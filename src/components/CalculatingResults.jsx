@@ -16,7 +16,7 @@ const CalculatingResults = () => {
   return (
     <div>
       <h2>Calculating your results...</h2>
-      <img src="/assets/loading1.gif" alt="Loading..." />
+      <img src="assets/loading1.gif" alt="Loading..." />
     </div>
   );
 };

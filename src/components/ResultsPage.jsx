@@ -43,11 +43,11 @@ const ResultsPage = () => {
           <div className="charts">
             <div className="pie-chart">
               {/* Example placeholder for pie chart */}
-              <img src="./assets/piechart.png" alt="Pie Chart" />
+              <img src="assets/piechart.png" alt="Pie Chart" />
             </div>
             <div className="bar-chart">
               {/* Example placeholder for bar chart */}
-              <img src="./assets/bargraph.png" alt="Bar Chart" />
+              <img src="assets/bargraph.png" alt="Bar Chart" />
             </div>
           </div>
         </div>
