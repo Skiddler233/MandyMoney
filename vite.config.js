@@ -6,5 +6,5 @@ export default defineConfig({
   build: {
     sourcemap: false, // Disable source maps for production
   },
-  base: '/MandyMoney/', // Ensure base is set correctly for GitHub Pages
+  //base: '/MandyMoney/', // Ensure base is set correctly for GitHub Pages
 });
