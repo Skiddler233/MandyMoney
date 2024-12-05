@@ -12,13 +12,13 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<WelcomeScreen />} />
-        <Route path="/terms" element={<TermScreen />} />
-        <Route path="/about" element={<AboutYouPage />} />
-        <Route path="/quiz" element={<QuizPage />} />
-        <Route path="/quiz2" element={<QuizPage2 />} />
-        <Route path="/calculating" element={<CalculatingResults />} />
-        <Route path="/results" element={<ResultsPage />} />
+        <Route path="MandyMoney/" element={<WelcomeScreen />} />
+        <Route path="MandyMoney/terms" element={<TermScreen />} />
+        <Route path="MandyMoney/about" element={<AboutYouPage />} />
+        <Route path="MandyMoney/quiz" element={<QuizPage />} />
+        <Route path="MandyMoney/quiz2" element={<QuizPage2 />} />
+        <Route path="MandyMoney/calculating" element={<CalculatingResults />} />
+        <Route path="MandyMoney/results" element={<ResultsPage />} />
       </Routes>
     </BrowserRouter>
   );
