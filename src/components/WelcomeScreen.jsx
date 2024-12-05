@@ -11,7 +11,7 @@ const WelcomeScreen = () => {
 
   return (
     <div className="welcome-container">
-      <img src="/assets/lilguy.png" alt="Kangaroo" />
+      <img src={`${process.env.PUBLIC_URL}/assets/lilguy.png`} alt="Kangaroo" />
       <h1>Welcome to the Mandy Money Quiz</h1>
       <button onClick={startQuiz}>Start Quiz</button>
     </div>
